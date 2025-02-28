@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main1{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/04ef06cc-5f81-4a8e-8db0-6430ba4af286/web/BD-en-20250224-TRIFECTA-perspective_96f226d1-0caa-4006-b217-49b59f2f881d_large.jpg);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.nav{
+    /* position: absolute; */
+}
+
+.cover{
+    background: #0000009c;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 50rem;
+    /* align-items: center; */
+    position: relative;
+}
+
+
+.main1 .nav .logo{
+    margin: 2rem;
+
+    
+}
+
+.btn{
+    height: 2rem;
+    width: 5rem;
+    margin: 2rem;
+    color: white;
+    background: red;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.text1{
+    /* background: red; */
+    margin-top: 17vw;
+    
+    position: absolute;
+    color: aliceblue;
+    font-size: 4rem;
+    font-family: poppins;
+    font-weight: 700;
+}
+.text2{
+    /* background: red; */
+    margin-top: 22vw;
+    
+    position: absolute;
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: poppins;
+    font-weight: 800;
+}
+.text3{
+    /* background: red; */
+    margin-top: 27vw;
+    
+    position: absolute;
+    color: aliceblue;
+    font-size: 1.3rem;
+    /* font-family: poppins; */
+    font-weight: 800;
+}
+.text4{
+    /* background: red; */
+    margin-top: 30vw;
+    
+    position: absolute;
+    color: aliceblue;
+    font-size: 1.3rem;
+    /* font-family: poppins; */
+    font-weight: 500;
+}
+
+.input{
+    position: absolute;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
